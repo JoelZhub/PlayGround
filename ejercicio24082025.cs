@@ -9,8 +9,6 @@ while (!int.tryparse(Console.ReadLine(), out num))
 
 int[] arrays = new int[num];
 int numIngresado;
-int numMayor = 0;
-
 for (int i = 0; i < arrays.lenght; i++)
 {
 
@@ -23,10 +21,23 @@ for (int i = 0; i < arrays.lenght; i++)
 
     arrays[i] = numIngresado;
 
-    if (arrays[i] > numMayor) numMayor = arrays[i];
+    for (int j = 1; j < arrays.lenght - 1; j++)
+    {
 
+        int temp = 0;
 
+        if (arrays[i] > arrays[j])
+        {
+            arrays[i] = temp;
+            arrays[i] = arrays[j];
+            arrays[j] = temp;
+        }
+     
+    }
 }
 
-
-
+foreach (var item in arrays)
+{
+    
+    System.Console.WriteLine($"\n{item}");
+}
