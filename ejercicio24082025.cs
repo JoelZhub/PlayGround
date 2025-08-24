@@ -9,7 +9,7 @@ while (!int.TryParse(Console.ReadLine(), out num))
 
 int[] arrays = new int[num];
 int numIngresado;
-for (int i = 0; i < arrays.Lenght; i++)
+for (int i = 0; i < arrays.Length; i++)
 {
 
     System.Console.WriteLine($"Ingrese el numero {i + 1} ");
@@ -21,26 +21,26 @@ for (int i = 0; i < arrays.Lenght; i++)
 
     arrays[i] = numIngresado;
     Console.Clear();
-
-
-
 }
 
-for (int j = 0; j < arrays.Length-1; j++)
+for (int j = 0; j < arrays.Length - 1; j++)
 {
- int temp;
-  
-    if (arrays[j] > arrays[j + 1])
+    for (int j = 0; j < arrays.Length - 1; j++)
     {
-        temp = arrays[j];
-        arrays[j] = arrays[j + 1];
-        arrays[j + 1] = temp;
-    }
+        int temp;
+
+        if (arrays[j] > arrays[j + 1])
+        {
+            temp = arrays[j];
+            arrays[j] = arrays[j + 1];
+            arrays[j + 1] = temp;
+        }
 
     }
+}
 
 foreach (var item in arrays)
-{
+    {
 
-    System.Console.WriteLine($"\n{item}");
-}
+        System.Console.WriteLine($"\n{item}");
+    }
