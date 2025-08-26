@@ -1,0 +1,15 @@
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\bin\Debug\net9.0\GestionEstudiante.exe
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\bin\Debug\net9.0\GestionEstudiante.deps.json
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\bin\Debug\net9.0\GestionEstudiante.runtimeconfig.json
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\bin\Debug\net9.0\GestionEstudiante.dll
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\bin\Debug\net9.0\GestionEstudiante.pdb
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\GestionEstudiante.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\GestionEstudiante.AssemblyInfoInputs.cache
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\GestionEstudiante.AssemblyInfo.cs
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\GestionEstudiante.csproj.CoreCompileInputs.cache
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\GestionEstudiante.sourcelink.json
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\GestionEstudiante.dll
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\refint\GestionEstudiante.dll
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\GestionEstudiante.pdb
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\GestionEstudiante.genruntimeconfig.cache
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\GestionEstudiante\obj\Debug\net9.0\ref\GestionEstudiante.dll
