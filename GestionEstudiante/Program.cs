@@ -9,12 +9,17 @@ Calcula su promedio usando métodos y propiedades. Permite agregar y eliminar ca
 */
 
 
+Estudiantes.Menu();
+
+
 class Estudiantes
 {
 
-    public string Nombre { get; set; } 
+    public  string Nombre { get; set; }
 
-   public List<double> Calificaciones  { get; set; }
+    public static List<Estudiantes> listaEstudiantes = new List<Estudiantes>();
+
+    public static List<double> Calificaciones { get; set; }
 
 
     public Estudiantes(string nombre)
@@ -23,14 +28,16 @@ class Estudiantes
         Calificaciones = new List<double>();
     }
 
-    public void Menu()
+    public static void Menu()
     {
-        Console.WriteLine("Ingrese lo que desea realizar\n  "  +
-        "1- Agregar Estudiantes \n  2- Agregar calificaciones \n 3- Calcular Promedio \n " +
-         "4 - Eliminar Calificacion \n 5- Mostrar participantes y calificaciones  \n 6- Salir" );
+
+        Console.Clear();
+        Console.WriteLine("Ingrese lo que desea realizar\n  " +
+        "1- Agregar Estudiantes \n  2- Agregar calificaciones  \n " +
+         "3 - Eliminar Calificacion \n 4- Mostrar estudiantes y calificaciones \n 5- Salir");
         int opt;
 
-        while (!int.TryParse(Console.ReadLine(), out opt) || opt <= 0 || opt > 6)
+        while (!int.TryParse(Console.ReadLine(), out opt) || opt <= 0 || opt > 5)
         {
             Console.Clear();
             Console.Write("Ingrese una accion valida");
@@ -58,6 +65,8 @@ class Estudiantes
                 CrearEstudiantes(numeroRegistros);
                 Console.Clear();
                 Console.WriteLine("Estudiantes agregados con exito");
+             Console.WriteLine(listaEstudiantes[1].Nombre);
+
                 Thread.Sleep(3000);
                 Console.Clear();
                 Menu();
@@ -65,38 +74,130 @@ class Estudiantes
                 break;
 
             case 2:
+                if (listaEstudiantes.Count == 0)
+                {
+                    
+                    Console.Clear();
+                    Console.WriteLine("Error: No existen estudiantes ");
+                    Console.WriteLine("Desea agregar estudiantes(Si/No)");
+                    string? optIngresada = Console.ReadLine()!.ToLower();
 
-                
+                    if (optIngresada != "si") Menu();
+
+                        Console.WriteLine("Ingrese el numero de estudiantes a registrar");
+                        int num;
+                        while (!int.TryParse(Console.ReadLine(), out num) || num <= 0)
+                        {
+                            Console.WriteLine("Ingrese un numero valido");
+                            Console.ReadLine();
+                        }
+
+                        CrearEstudiantes(num);
+
+                        Console.Clear();
+                        Menu();
+                    
+
+                }
+
+                Console.WriteLine("Cuantas calificaciones desea agregar por estudiante? ");
+                int numCalificaciones = 0;
+
+                for (int i = 0; i < listaEstudiantes.Count; i++)
+                {
+
+                    for (int j = 0; j < numCalificaciones ; i++)
+                    {
+                        Console.WriteLine($"Ingrese la calificacion {j + 1} \n Para el estudiante {listaEstudiantes[i].Nombre}");
+                        double calificacion;
+
+                        while (!double.TryParse(Console.ReadLine(), out calificacion) || calificacion <= 0)
+                        {
+                            Console.WriteLine("Ingrese una calificacion valida");
+                            Console.ReadLine();
+                        }
+
+                        AgregarCalificaciones(calificacion);
+                    }
+
+                 }
 
                 break;
 
             case 3:
+                if (Calificaciones.Count == 0 || listaEstudiantes.Count == 0)
+                {
+                    Console.WriteLine("No hay califaciones  o estudiantes agregadoss ");
+                    Console.Clear();
+                    Menu();
+
+                }
+            Console.Clear();
+
+              Console.WriteLine("Ingrese el indice de la calificacion a eliminar");
+
+                int indice;
+
+                while (!int.TryParse(Console.ReadLine(), out indice))
+                {
+                    Console.WriteLine("Ingrese un indice valido");
+                    Console.ReadLine();
+                }
+
+                if (EliminarCalificacion(indice))
+                {
+                    Console.WriteLine("Calificacion eliminada con exito");
+                    Console.Clear();
+                    Menu();
+                }
+                else
+                {
+                    Console.WriteLine("No se pudo eliminar la calificacion");
+                    Console.Clear();
+                    Menu();
+                }
 
                 break;
 
             case 4:
 
+                if (listaEstudiantes.Count <= 0 || Calificaciones.Count <= 0)
+                {
+                    Console.WriteLine("No hay estudiantes o califaciones para mostrar");
+                    Console.Clear();
+                    Menu();
+                }
+
+             
+
+
+
                 break;
 
             default:
-            
-            Console.WriteLine("Ingrese una opcion valida");
-            Console.Clear();
-            Menu();
+
+                Console.WriteLine("Ingrese una opcion valida");
+                Console.Clear();
+                Menu();
                 break;
-                
-    }
-        
-        
+
+        }
+
+
 
     }
 
-    public void AgregarCalificaciones(double calificaciones)
+    public  void MostrarInforamacion()
+    {
+        Console.WriteLine($"Estudiante: {Nombre}  \n Promedio: {Promedio:f2} \n Calificaciones: {string.Join(", ", Calificaciones)}");
+    }
+
+    public static void AgregarCalificaciones(double calificaciones)
     {
         Calificaciones.Add(calificaciones);
 
     }
-    public double Promedio
+    public static double Promedio
     {
         get
         {
@@ -107,23 +208,23 @@ class Estudiantes
             return Calificaciones.Average();
         }
     }
-    public bool EliminarCalificacion(int indice)
+    public static bool EliminarCalificacion(int indice)
     {
         if (indice >= 0 && indice <= Calificaciones.Count)
         {
             Calificaciones.RemoveAt(indice);
-           return true;
+            return true;
         }
         return false;
     }
 
-   public  void CrearEstudiantes(int numeroRegistros)
+    public static void CrearEstudiantes(int numeroRegistros)
     {
-        List<Estudiantes> listaEstudiantes = new List<Estudiantes>();
+
 
         for (int i = 0; i < numeroRegistros; i++)
         {
-            Console.Write("Ingrese el nombre del estudiante", i + 1);
+            Console.Write("Ingrese el nombre del estudiante: ", i + 1);
             string? nombre = Console.ReadLine();
 
             while (string.IsNullOrEmpty(nombre) || nombre.Any(char.IsDigit))
@@ -133,7 +234,7 @@ class Estudiantes
             }
 
             listaEstudiantes.Add(new Estudiantes(nombre));
-            
+
         }
 
     }
