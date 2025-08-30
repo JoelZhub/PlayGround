@@ -6,3 +6,12 @@ operación de una plataforma de car sharing con reglas de negocio reales.
 */
 
 
+class Gestion
+{
+    
+
+    public static void Menu()
+    {
+        
+    }
+}

@@ -2,7 +2,7 @@ class Vehiculos
 {
 
 
-    public string Marca { get; set; }
+   public string Marca { get; set; }
 
     public string TipoVehiculo { get; set; }
 
@@ -12,7 +12,7 @@ class Vehiculos
 
     public string UbicacionActual { get; set; }
 
-    public List<Vehiculos> vehiculos = new List<Vehiculos>();
+    public static List<Vehiculos> vehiculos = new List<Vehiculos>();
     public Vehiculos(string marca, string tipo, string matricula, string ubicacion)
     {
 
@@ -28,9 +28,11 @@ class Vehiculos
 
     }
 
-    //metodos de creacion, eliminacion y edicion
 
-    public void CrearVehiculo()
+
+    //metodos de creacion, eliminacion, lectura y edicion
+
+    public static void CrearVehiculo()
     {
 
         classMessage.Information("Ingrese la marca del vehiculo: ", ConsoleColor.DarkGreen);
@@ -51,7 +53,7 @@ class Vehiculos
         vehiculos.Add(new Vehiculos(marca, matricula, tipo, ubicacion));
     }
 
-    public void EliminarVehiculo(string matricula)
+    public static void EliminarVehiculo(string matricula)
     {
         classMessage.Information("Ingrese la matricula del vehiculo a eliminar: ", ConsoleColor.DarkGreen);
         matricula = Console.ReadLine()!;
@@ -76,16 +78,55 @@ class Vehiculos
         if (opt != "s")
         {
             Console.Clear();
-            //Gestion.Menu();
+            Gestion.Menu();
 
         }
         vehiculos.RemoveAll(e => e.Matricula == matricula);
 
     }
 
+ //metodos para mostrar informacion de los vehiculos
+    public static void MostrarVehiculosTipo(string tipo)
+    {
+
+        Console.Clear();
+        var vehiculosTipo = vehiculos.Where(e => e.TipoVehiculo.ToLower() == tipo && e.EstadoVehiculo != "R").ToList();
+
+        foreach (var vehiculo in vehiculosTipo)
+        {
+
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine($"Marca: {vehiculo.Marca} \n Matricula: {vehiculo.Matricula}  \n Tipo de vehiculo: {vehiculo.TipoVehiculo}  " +
+            $"\n Ubicacion del vehiculo: {vehiculo.UbicacionActual} \n Estado del vehiculo: {vehiculo.EstadoVehiculo} ");
+            Console.ResetColor();
+
+       }
+
+
+    }
+
+     public static void MostrarVehiculosUbicacion(string ubicacion)
+    {
+        
+        Console.Clear();
+
+        var vehiculosTipo = vehiculos.Where(e => e.UbicacionActual.ToLower() == ubicacion && e.EstadoVehiculo != "R").ToList();
+        
+        foreach (var vehiculo in vehiculosTipo)
+        {
+            Console.ForegroundColor = ConsoleColor.DarkGreen;
+            Console.WriteLine($"Marca: {vehiculo.Marca} \n Matricula: {vehiculo.Matricula} \n Tipo de vehiculo: {vehiculo.TipoVehiculo}" +
+            $" \n Ubicacion del vehiculo: {vehiculo.UbicacionActual} \n Estado del vehiculo: {vehiculo.EstadoVehiculo} ");
+            Console.ResetColor();
+
+        }
+
+
+    }
+    
     //metodos que se encargan de validar los datos ingresados por el usuario
 
-    public string ValidarMarca(string marca)
+    public static string ValidarMarca(string marca)
     {
 
         while (!string.IsNullOrWhiteSpace(marca) || marca.Any(char.IsDigit))
@@ -97,7 +138,7 @@ class Vehiculos
 
     }
 
-    public string ValidarUbicacion(string ubicacion)
+    public  static string ValidarUbicacion(string ubicacion)
     {
 
 
@@ -109,7 +150,7 @@ class Vehiculos
         return ubicacion;
     }
 
-    public string ValidarMatricula(string matricula)
+    public  static string ValidarMatricula(string matricula)
     {
         while (!string.IsNullOrWhiteSpace(matricula) || !matricula.Any(char.IsDigit))
         {
@@ -120,7 +161,7 @@ class Vehiculos
         return matricula;
     }
 
-    public string ValidarTipo(string tipo)
+    public static string ValidarTipo(string tipo)
     {
         tipo = tipo.ToLower();
 
@@ -137,9 +178,9 @@ class Vehiculos
     }
 
 
-    public bool ExisteVehiculo(string matricula)
+    public static bool ExisteVehiculo(string matricula)
     {
-        if (vehiculos.Any(e => e.Matricula.ToLower() == matricula.ToLower())) { return false; }
+        if (vehiculos.Any(e => e.Matricula.ToLower() == matricula.ToLower()))  return false;
         return false;
     }
 
