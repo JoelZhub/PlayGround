@@ -1,20 +1,22 @@
-class Usuarios
+class  Usuarios
 {
 
     //campos de la clase usuario
     public string Nombre { get; set; }
 
-    public static list<Usuarios> Usuarios { get; set; }
+    public static List<Usuarios> usuarios { get; set; }
 
     public string Email { get; set; }
 
+    public int Password { get; set; }
+
     private bool EstadoMenbresia { get; set; }
 
-    public list<Reservas> HistorialReservas { get; set; }
-    
+    //public List<Reservas> HistorialReservas { get; set; }
+
 
     //constructor de la clase usuario
-    public Usuarios(string nom, string email)
+    public Usuarios(string nom, string email, int password)
     {
 
         Nombre = nom;
@@ -23,42 +25,44 @@ class Usuarios
 
         EstadoMenbresia = true;
 
-        Usuarios = new list<Usuarios>();
+        usuarios = new List<Usuarios>();
 
-        HistorialReservas = new list<Reservas>();
+        //HistorialReservas = new list<Reservas>();
+
+        Password = password;
     }
 
     // métodos de la clase usuario
 
-   //metodo para agregar usuarios
-    public void AgregarUsuarios(string nombre, string email)
+    //metodo para agregar usuarios
+    public void AgregarUsuarios(string nombre, string email, int password)
     {
 
-
-
-
-
-
+        nombre = NombreValido(nombre);
+        if (!EmailValido(email)) classMessage.Message($"Error: Ingrese un email valido", 2000, ConsoleColor.Red);
+        password = PassswordValido(password);
+        usuarios.Add(new Usuarios(nombre, email, password));
+        
     }
 
-
     //validacion de los datos de entrada 
-    public bool EmailValido(string email)
+    public static bool EmailValido(string email)
     {
 
         while (!email.Contains("@") || !email.Contains(".")
-        || Usuarios.Any(e => e.Email.ToLower() == email.ToLower()))
+        || usuarios.Any(e => e.Email.ToLower() == email.ToLower()))
         {
 
             if (!email.Contains("@") || !email.Contains("."))
             {
                 classMessage.Message($"Error: Email invalido {email} ", 2000, ConsoleColor.Red);
                 return false;
-            } 
-            else {
+            }
+            else
+            {
 
                 classMessage.Message($"Error: El email {email} ya se encuentra registrado ", 2000, ConsoleColor.Red);
-                 return false;
+                return false;
             }
         }
 
@@ -66,12 +70,13 @@ class Usuarios
 
 
     }
-// Metodo para validar si el nombre existe
-    public string NombreValido(string nombre)
+
+    // Metodo para validar si el nombre existe
+    public static string NombreValido(string nombre)
     {
 
         while (!string.IsNullOrEmpty(nombre) || nombre.Any(char.IsDigit) ||
-         Usuarios.Any(e => e.Nombre.ToLower() == nombre.ToLower()))
+         usuarios.Any(e => e.Nombre.ToLower() == nombre.ToLower()))
         {
 
             Console.Clear();
@@ -87,10 +92,23 @@ class Usuarios
                 classMessage.Message("Error: El nombre ya existe", 2000, ConsoleColor.Red);
             }
 
-            nombre = Console.ReadLine();
+            nombre = Console.ReadLine()!;
 
         }
         return nombre.ToLower();
+    }
+
+
+    //metodo para validar que el usuario ingreso un password valido
+    public static int PassswordValido(int password)
+    {
+        while (!int.TryParse(Console.ReadLine(), out int passsword) || passsword.ToString().Length < 8)
+        {
+            classMessage.Message($"Error: Passsword valido {passsword}", 2000, ConsoleColor.Red);
+        }
+        
+        return password;
+
 
 
     }
