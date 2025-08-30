@@ -4,8 +4,7 @@ class  Usuarios
     //campos de la clase usuario
     public string Nombre { get; set; }
 
-    public static List<Usuarios> usuarios { get; set; }
-
+    public static List<Usuarios> usuarios = new List<Usuarios>();
     public string Email { get; set; }
 
     public int Password { get; set; }
@@ -25,7 +24,7 @@ class  Usuarios
 
         EstadoMenbresia = true;
 
-        usuarios = new List<Usuarios>();
+      
 
         //HistorialReservas = new list<Reservas>();
 
@@ -35,12 +34,21 @@ class  Usuarios
     // métodos de la clase usuario
 
     //metodo para agregar usuarios
-    public void AgregarUsuarios(string nombre, string email, int password)
+    public void AgregarUsuarios()
     {
 
+        classMessage.Information($"Ingrese un nombre: ",ConsoleColor.DarkGreen );
+        string nombre = Console.ReadLine()!;
         nombre = NombreValido(nombre);
+
+        classMessage.Information($"Ingrese un email: ",ConsoleColor.DarkGreen );
+        string email = Console.ReadLine()!;
         if (!EmailValido(email)) classMessage.Message($"Error: Ingrese un email valido", 2000, ConsoleColor.Red);
+
+        classMessage.Information($"Ingrese una password: ",ConsoleColor.DarkGreen );
+        int password = Convert.ToInt32(Console.ReadLine());
         password = PassswordValido(password);
+
         usuarios.Add(new Usuarios(nombre, email, password));
         
     }
@@ -64,6 +72,8 @@ class  Usuarios
                 classMessage.Message($"Error: El email {email} ya se encuentra registrado ", 2000, ConsoleColor.Red);
                 return false;
             }
+
+            email = Console.ReadLine();
         }
 
         return true;
@@ -85,6 +95,7 @@ class  Usuarios
             {
 
                 classMessage.Message("Error: Nombre invalido", 2000, ConsoleColor.Red);
+                
 
             }
             else
@@ -105,6 +116,7 @@ class  Usuarios
         while (!int.TryParse(Console.ReadLine(), out int passsword) || passsword.ToString().Length < 8)
         {
             classMessage.Message($"Error: Passsword valido {passsword}", 2000, ConsoleColor.Red);
+
         }
         
         return password;
