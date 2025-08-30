@@ -44,13 +44,19 @@ class Usuarios
 
             if (!string.IsNullOrEmpty(nombre) || nombre.Any(char.IsDigit))
             {
-                
-                
-                
+
+                classMessage.Message("Error: Nombre invalido", 2000, ConsoleColor.Red);
+
+            }
+            else
+            {
+                classMessage.Message("Error: El nombre ya existe", 2000, ConsoleColor.Red);
             }
 
-            
+            nombre = Console.ReadLine();
+
         }
+        return nombre.ToLower();
 
 
     }
