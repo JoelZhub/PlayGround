@@ -1,0 +1,5 @@
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia24Mes08Año2025\obj\Debug\net9.0\EjercicioDia24Mes08Año2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia24Mes08Año2025\obj\Debug\net9.0\EjercicioDia24Mes08Año2025.AssemblyInfoInputs.cache
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia24Mes08Año2025\obj\Debug\net9.0\EjercicioDia24Mes08Año2025.AssemblyInfo.cs
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia24Mes08Año2025\obj\Debug\net9.0\EjercicioDia24Mes08Año2025.csproj.CoreCompileInputs.cache
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia24Mes08Año2025\obj\Debug\net9.0\EjercicioDia24Mes08Año2025.sourcelink.json
