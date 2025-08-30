@@ -1,0 +1,15 @@
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\bin\Debug\net9.0\EjercicioDia30Mes08Año2025.exe
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\bin\Debug\net9.0\EjercicioDia30Mes08Año2025.deps.json
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\bin\Debug\net9.0\EjercicioDia30Mes08Año2025.runtimeconfig.json
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\bin\Debug\net9.0\EjercicioDia30Mes08Año2025.dll
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\bin\Debug\net9.0\EjercicioDia30Mes08Año2025.pdb
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\EjercicioDia30Mes08Año2025.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\EjercicioDia30Mes08Año2025.AssemblyInfoInputs.cache
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\EjercicioDia30Mes08Año2025.AssemblyInfo.cs
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\EjercicioDia30Mes08Año2025.csproj.CoreCompileInputs.cache
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\EjercicioDia30Mes08Año2025.sourcelink.json
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\EjercicioDia30Mes08Año2025.dll
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\refint\EjercicioDia30Mes08Año2025.dll
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\EjercicioDia30Mes08Año2025.pdb
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\EjercicioDia30Mes08Año2025.genruntimeconfig.cache
+C:\Users\joela\OneDrive\Escritorio\Archivos\Portafolio\NET\Console\PlayGround\EjercicioDia30Mes08Año2025\obj\Debug\net9.0\ref\EjercicioDia30Mes08Año2025.dll

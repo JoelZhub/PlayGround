@@ -13,7 +13,7 @@ class Vehiculos
     public string UbicacionActual { get; set; }
 
     public static List<Vehiculos> vehiculos = new List<Vehiculos>();
-    public Vehiculos(string marca, string tipo, string matricula, string ubicacion)
+    public Vehiculos(string marca, string matricula,  string tipo, string ubicacion)
     {
 
         Marca = marca;
@@ -55,33 +55,36 @@ class Vehiculos
 
     public static void EliminarVehiculo(string matricula)
     {
-        classMessage.Information("Ingrese la matricula del vehiculo a eliminar: ", ConsoleColor.DarkGreen);
-        matricula = Console.ReadLine()!;
         matricula = ValidarMatricula(matricula);
 
-        while (!ExisteVehiculo(matricula))
+        while (ExisteVehiculo(matricula))
         {
             classMessage.Message($"Error: No existe el vehiculo con la matricula {matricula} ", 2000, ConsoleColor.DarkGreen);
+            Console.Write("Ingrese nuevamente otra matricula: ");
             matricula = Console.ReadLine()!;
         }
 
         classMessage.Information($"Advertencia: Esta por eliminar el vehiculo {matricula} ", ConsoleColor.DarkYellow);
-        classMessage.Information("Ingrese S para eliminar", ConsoleColor.DarkGreen);
-        string opt = Console.ReadLine()!.ToLower();
+        classMessage.Information("Presione S para eliminar o N para cancelar ", ConsoleColor.DarkGreen);
 
-        while (!string.IsNullOrEmpty(opt) || opt.Any(char.IsDigit))
+        var opt = Console.ReadKey();
+
+        while (opt.Key != ConsoleKey.S && opt.Key != ConsoleKey.N)
         {
-            classMessage.Message("Error: Ingrese una opcion valida: ", 2000, ConsoleColor.Red);
-            opt = Console.ReadLine()!.ToLower();
-        }
+            classMessage.Message("Error: Presione una tecla valida: ", 2000, ConsoleColor.Red);
+            Console.WriteLine("Intente de nuevo");
+            opt = Console.ReadKey();
 
-        if (opt != "s")
+        }
+        if (opt.Key == ConsoleKey.N)
         {
             Console.Clear();
             Gestion.Menu();
-
         }
         vehiculos.RemoveAll(e => e.Matricula == matricula);
+        classMessage.Message("Vehiculo eliminado con exito ", 2000, ConsoleColor.DarkGreen);
+
+        Gestion.Menu();
 
     }
 
@@ -90,17 +93,26 @@ class Vehiculos
     {
 
         Console.Clear();
-        var vehiculosTipo = vehiculos.Where(e => e.TipoVehiculo.ToLower() == tipo && e.EstadoVehiculo != "R").ToList();
+        var vehiculosTipo = vehiculos.Where(e => e.TipoVehiculo.ToLower() == tipo.ToLower()).ToList();
 
-        foreach (var vehiculo in vehiculosTipo)
+        if (vehiculosTipo.Count > 0)
         {
 
-            Console.ForegroundColor = ConsoleColor.DarkGreen;
-            Console.WriteLine($"Marca: {vehiculo.Marca} \n Matricula: {vehiculo.Matricula}  \n Tipo de vehiculo: {vehiculo.TipoVehiculo}  " +
-            $"\n Ubicacion del vehiculo: {vehiculo.UbicacionActual} \n Estado del vehiculo: {vehiculo.EstadoVehiculo} ");
-            Console.ResetColor();
+            foreach (var vehiculo in vehiculosTipo)
+            {
 
-       }
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                Console.WriteLine($"Marca: {vehiculo.Marca} \n Matricula: {vehiculo.Matricula}  \n Tipo de vehiculo: {vehiculo.TipoVehiculo}  " +
+                $"\n Ubicacion del vehiculo: {vehiculo.UbicacionActual} \n Estado del vehiculo: {vehiculo.EstadoVehiculo} ");
+                Console.ResetColor();
+
+            }
+        }
+        else
+        {
+            classMessage.Message($"Error: No existen vehiculos", 2000, ConsoleColor.Red);
+            Gestion.Menu();
+        }
 
 
     }
@@ -129,7 +141,7 @@ class Vehiculos
     public static string ValidarMarca(string marca)
     {
 
-        while (!string.IsNullOrWhiteSpace(marca) || marca.Any(char.IsDigit))
+        while (string.IsNullOrWhiteSpace(marca) || marca.Any(char.IsDigit))
         {
             classMessage.Information("Error: Ingrese una marca valida: ", ConsoleColor.Red);
             marca = Console.ReadLine()!;
@@ -142,7 +154,7 @@ class Vehiculos
     {
 
 
-        while (!string.IsNullOrWhiteSpace(ubicacion) || ubicacion.Any(char.IsDigit))
+        while (string.IsNullOrWhiteSpace(ubicacion) || ubicacion.Any(char.IsDigit))
         {
             classMessage.Message("Error: Ingrese una ubicacion valida", 2000, ConsoleColor.Red);
             ubicacion = Console.ReadLine()!;
@@ -152,7 +164,7 @@ class Vehiculos
 
     public  static string ValidarMatricula(string matricula)
     {
-        while (!string.IsNullOrWhiteSpace(matricula) || !matricula.Any(char.IsDigit))
+        while (string.IsNullOrWhiteSpace(matricula) || !matricula.Any(char.IsDigit))
         {
             classMessage.Information("Error: Ingrese una matricula valida: ", ConsoleColor.Red);
             matricula = Console.ReadLine()!;
@@ -165,8 +177,8 @@ class Vehiculos
     {
         tipo = tipo.ToLower();
 
-        while (!string.IsNullOrWhiteSpace(tipo) || tipo.Any(char.IsDigit)
-        || tipo != "auto" || tipo != "motor" || tipo != "bicibleta")
+        while (string.IsNullOrWhiteSpace(tipo) || tipo.Any(char.IsDigit)
+        || (tipo != "auto" && tipo != "motor" && tipo != "bicicleta"))
         {
 
             classMessage.Information("Error: Ingrese un tipo de vehiculo valido: ", ConsoleColor.Red);
@@ -180,7 +192,7 @@ class Vehiculos
 
     public static bool ExisteVehiculo(string matricula)
     {
-        if (vehiculos.Any(e => e.Matricula.ToLower() == matricula.ToLower()))  return false;
+        if (vehiculos.Any(e => e.Matricula.ToLower() == matricula.ToLower()))  return true;
         return false;
     }
 

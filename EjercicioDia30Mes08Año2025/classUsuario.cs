@@ -1,4 +1,4 @@
-class  Usuarios
+class Usuarios
 {
 
     //campos de la clase usuario
@@ -6,8 +6,6 @@ class  Usuarios
 
     public static List<Usuarios> usuarios = new List<Usuarios>();
     public string Email { get; set; }
-
-    public int Password { get; set; }
 
     private bool EstadoMenbresia { get; set; }
 
@@ -24,33 +22,67 @@ class  Usuarios
 
         EstadoMenbresia = true;
 
-      
-
         //HistorialReservas = new list<Reservas>();
-
-        Password = password;
     }
 
     // métodos de la clase usuario
 
     //metodo para agregar usuarios
-    public void AgregarUsuarios()
+    public static void AgregarUsuarios()
     {
 
-        classMessage.Information($"Ingrese un nombre: ",ConsoleColor.DarkGreen );
+        classMessage.Information($"Ingrese un nombre: ", ConsoleColor.DarkGreen);
         string nombre = Console.ReadLine()!;
         nombre = NombreValido(nombre);
 
-        classMessage.Information($"Ingrese un email: ",ConsoleColor.DarkGreen );
+        classMessage.Information($"Ingrese un email: ", ConsoleColor.DarkGreen);
         string email = Console.ReadLine()!;
-        if (!EmailValido(email)) classMessage.Message($"Error: Ingrese un email valido", 2000, ConsoleColor.Red);
+        while (!EmailValido(email))
+        {
+            classMessage.Message($"Error: Ingrese un email valido", 2000, ConsoleColor.Red);
+            email = Console.ReadLine()!;
+        }
 
-        classMessage.Information($"Ingrese una password: ",ConsoleColor.DarkGreen );
+        classMessage.Information($"Ingrese una password: ", ConsoleColor.DarkGreen);
         int password = Convert.ToInt32(Console.ReadLine());
         password = PassswordValido(password);
 
         usuarios.Add(new Usuarios(nombre, email, password));
-        
+
+    }
+    //metodo para eliminar usuarios
+
+    public static void EliminarUsuario(string nombre)
+    {
+
+        nombre = NombreValido(nombre);
+
+
+    }
+
+    // metodo para mostrar usuarios
+
+    public static void MostrarUsuarios()
+    {
+
+        Console.Clear();
+        if (usuarios.Count > 0)
+        {
+            foreach (var usuario in usuarios)
+            {
+                Console.ForegroundColor = ConsoleColor.DarkGreen;
+                var estado = usuario.EstadoMenbresia ? "Activo" : "No activo";
+                Console.WriteLine($"Nombre: {usuario.Nombre} \n Email: {usuario.Email} \n Estado de membresia: {estado}");
+                Console.ResetColor();
+            }
+        }
+        else
+        {
+            classMessage.Message("Error: No existen usuarios", 2000, ConsoleColor.Red);
+            Gestion.Menu();
+        }
+
+
     }
 
     //validacion de los datos de entrada 
@@ -73,7 +105,7 @@ class  Usuarios
                 return false;
             }
 
-            email = Console.ReadLine();
+
         }
 
         return true;
@@ -95,7 +127,7 @@ class  Usuarios
             {
 
                 classMessage.Message("Error: Nombre invalido", 2000, ConsoleColor.Red);
-                
+
 
             }
             else
@@ -118,11 +150,17 @@ class  Usuarios
             classMessage.Message($"Error: Passsword valido {passsword}", 2000, ConsoleColor.Red);
 
         }
-        
+
         return password;
 
-
-
     }
+
+    //verificar si el usuario existe
+
+
+    // public bool ExisteUsuario(string nombre)
+    // {
+        
+    // }
  
 }
