@@ -14,12 +14,9 @@ class Gestion
     {
         Console.Clear();
 
-        Vehiculos.CrearVehiculo();
+    
 
-        Console.Clear();
-
-        Vehiculos.MostrarVehiculosTipo("auto");
-
+     
       
 
 
