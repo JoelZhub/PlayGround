@@ -8,9 +8,6 @@ class Usuarios
     public string Email { get; set; }
 
     private bool EstadoMenbresia { get; set; }
-    
- 
-
 
     //constructor de la clase usuario
     public Usuarios(string nom, string email)

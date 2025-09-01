@@ -8,22 +8,17 @@ class PagosReserva
 
     public  static string? tipoAuto { get; set; }
 
-    public  static double CalculoPagoReserva(double costoReserva, string auto, int totalHoras)
+    public  static double CalculoPagoReserva(double costoReserva, string auto, int totalDias)
     {
 
         tarifaHora = AsignarTarifaPorAuto(auto);
         CostoReserva = costoReserva;
-        TotalHoras = totalHoras;
-        return  CostoReserva = totalHoras * tarifaHora;
+        TotalHoras = totalDias;
+        return  CostoReserva = TotalHoras * tarifaHora;
     }
 
     public static  double AsignarTarifaPorAuto(string auto)
     {
-
-        while (!ValidarExistencia(auto))
-        {
-            return 0;
-        }
 
         switch (auto)
         {
@@ -43,17 +38,6 @@ class PagosReserva
         return tarifaHora;
     }
 
-    public static bool ValidarExistencia(string auto)
-    {
-
-        while (string.IsNullOrEmpty(auto) || auto.Any(char.IsDigit) && (auto != "auto" || auto != "bicicleta" || auto != "motor"))
-        {
-            classMessage.Message($"Error: Ingrese un vehiculo valido para realizar la reserva {auto} ", 2000, ConsoleColor.Red);
-            return false;
-        }
-        return true;
-        
-    }
-    
+ 
 
 }

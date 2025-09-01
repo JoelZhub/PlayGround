@@ -2,7 +2,7 @@ class Vehiculos
 {
 
 
-   public string Marca { get; set; }
+    public string Marca { get; set; }
 
     public string TipoVehiculo { get; set; }
 
@@ -13,7 +13,7 @@ class Vehiculos
     public string UbicacionActual { get; set; }
 
     public static List<Vehiculos> vehiculos = new List<Vehiculos>();
-    public Vehiculos(string marca, string matricula,  string tipo, string ubicacion)
+    public Vehiculos(string marca, string matricula, string tipo, string ubicacion)
     {
 
         Marca = marca;
@@ -27,7 +27,6 @@ class Vehiculos
         EstadoVehiculo = "D";
 
     }
-
 
 
     //metodos de creacion, eliminacion, lectura y edicion
@@ -88,7 +87,7 @@ class Vehiculos
 
     }
 
- //metodos para mostrar informacion de los vehiculos
+    //metodos para mostrar informacion de los vehiculos
     public static void MostrarVehiculosTipo(string tipo)
     {
 
@@ -117,13 +116,13 @@ class Vehiculos
 
     }
 
-     public static void MostrarVehiculosUbicacion(string ubicacion)
+    public static void MostrarVehiculosUbicacion(string ubicacion)
     {
-        
+
         Console.Clear();
 
         var vehiculosTipo = vehiculos.Where(e => e.UbicacionActual.ToLower() == ubicacion && e.EstadoVehiculo != "R").ToList();
-        
+
         foreach (var vehiculo in vehiculosTipo)
         {
             Console.ForegroundColor = ConsoleColor.DarkGreen;
@@ -135,7 +134,7 @@ class Vehiculos
 
 
     }
-    
+
     //metodos que se encargan de validar los datos ingresados por el usuario
 
     public static string ValidarMarca(string marca)
@@ -150,7 +149,7 @@ class Vehiculos
 
     }
 
-    public  static string ValidarUbicacion(string ubicacion)
+    public static string ValidarUbicacion(string ubicacion)
     {
 
 
@@ -162,7 +161,7 @@ class Vehiculos
         return ubicacion;
     }
 
-    public  static string ValidarMatricula(string matricula)
+    public static string ValidarMatricula(string matricula)
     {
         while (string.IsNullOrWhiteSpace(matricula) || !matricula.Any(char.IsDigit))
         {
@@ -189,12 +188,13 @@ class Vehiculos
 
     }
 
-//metodo para verificar si existe el vehiculo consultado
+    //metodo para verificar si existe el vehiculo consultado
     public static bool ExisteVehiculo(string matricula)
     {
-        if (vehiculos.Any(e => e.Matricula.ToLower() == matricula.ToLower()))  return true;
+        if (vehiculos.Any(e => e.Matricula.ToLower() == matricula.ToLower())) return true;
         return false;
     }
+    
 
     
 }
