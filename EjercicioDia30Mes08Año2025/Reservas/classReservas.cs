@@ -2,11 +2,11 @@ class Reservas
 {
     //campos de la clase
 
-    public Usuarios Usuario { get; set; }
+    public Usuarios? Usuario { get; set; }
 
-    public Vehiculos Vehiculo { get; set; }
+    public Vehiculos? Vehiculo { get; set; }
 
-    public string EstadoReserva { get; set; }
+    public string? EstadoReserva { get; set; }
 
     public DateTime FechaReserva { get; set; }
 

@@ -1,3 +1,5 @@
+using System.Security.Cryptography;
+
 class Vehiculos
 {
 
@@ -92,7 +94,14 @@ class Vehiculos
     {
 
         Console.Clear();
+        
         var vehiculosTipo = vehiculos.Where(e => e.TipoVehiculo.ToLower() == tipo.ToLower()).ToList();
+
+        while (tipo != "auto" && tipo != "bicicleta" && tipo != "motor")
+        {
+            classMessage.Message($"Error: No existen vehiculos del tipo {tipo} ", 2000, ConsoleColor.Red);
+            Gestion.Menu();
+        }
 
         if (vehiculosTipo.Count > 0)
         {

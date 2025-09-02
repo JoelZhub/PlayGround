@@ -2,49 +2,30 @@
 class GestorReservas
 {
 
-    public static void CrearReservas(Usuarios usuario, string matricula, double costo, int dias)
+    public static void CrearReservas(string nombre, string matricula, double costo, int dias)
     {
 
-        classMessage.Information("Ingrese el nombre del usuario a realizar la reserva: ", ConsoleColor.DarkGreen);
-        string user = Console.ReadLine()!;
-
-        while (!Usuarios.ExisteUsuario(user))
-        {
-
-            classMessage.Message($"Error: El usuario {user} no existe ", 2000, ConsoleColor.DarkGreen);
-            Gestion.Menu();
-
-        }
-        classMessage.Information("Ingrese la matricula del vehiculo a reservar: ", ConsoleColor.DarkGreen);
-        string matri = Console.ReadLine()!;
-
-        while (!Vehiculos.ExisteVehiculo(matri))
-        {
-            classMessage.Message($"Error: El vehiculo {matri} no existe ", 2000, ConsoleColor.DarkGreen);
-            Gestion.Menu();
-        }
+        var usuario = Usuarios.usuarios.FirstOrDefault(n => n.Nombre.ToLower() == nombre.ToLower());
 
         var vehiculo = Vehiculos.vehiculos.FirstOrDefault(v => v.Matricula.ToLower() == matricula.ToLower());
 
-        classMessage.Information("Ingrese el costo de la reserva: ", ConsoleColor.DarkGreen);
-        costo = 0;
+        costo = PagosReserva.CalculoPagoReserva(costo, vehiculo!.TipoVehiculo, dias);
 
-        while (!double.TryParse(Console.ReadLine(), out costo) || costo <= 0)
+        if (vehiculo.EstadoVehiculo == "R")
         {
-            classMessage.Message($"Error: Ingrese un costo valido {costo} ", 2000, ConsoleColor.DarkGreen);
+            classMessage.Message($"Error: El vehiculo {vehiculo!.Marca} ({vehiculo.Matricula}) ya tiene una reserva activa ", 2000, ConsoleColor.Red);
             Gestion.Menu();
         }
 
-        classMessage.Information("Ingrse el total de dias a reservar: ", ConsoleColor.DarkGreen);
-        dias = 0;
-
-        while (!int.TryParse(Console.ReadLine(), out dias) || dias <= 0)
+        foreach (var r in Reservas.reservas)
         {
-            classMessage.Message($"Error: Ingrese un dia valido {dias} ", 2000, ConsoleColor.DarkGreen);
-            Gestion.Menu();
-        }
+            if (r.Usuario == usuario && r.EstadoReserva == "R")
+            {
+                classMessage.Message($"Error: El usuario {usuario!.Nombre} ya tiene una reserva activa ", 2000, ConsoleColor.Red);
+                Gestion.Menu();
+            }
 
-        costo = PagosReserva.CalculoPagoReserva(costo, vehiculo.TipoVehiculo, dias);
+        }
 
         var nuevaReserva = new Reservas
         {
@@ -59,8 +40,34 @@ class GestorReservas
 
         Reservas.reservas.Add(nuevaReserva);
 
-        classMessage.Information($"Reserva creada: {usuario.Nombre}  reservo {vehiculo.Marca} ({vehiculo.Matricula})", ConsoleColor.DarkGreen);
+        classMessage.Information($"Reserva creada: {usuario!.Nombre}  reservo {vehiculo.Marca} ({vehiculo.Matricula})", ConsoleColor.DarkGreen);
 
+
+    }
+
+    public static void DevolverVehiculo(string matricula)
+    {
+        while (!Vehiculos.ExisteVehiculo(matricula))
+        {
+            classMessage.Message($"El vehiculo {matricula} no existe ", 2000, ConsoleColor.Red);
+            Gestion.Menu();
+        }
+        var vehiculo = Vehiculos.vehiculos.FirstOrDefault(v => v.Matricula.ToLower() == matricula.ToLower());
+        var reserva = Reservas.reservas.FirstOrDefault(r => r.Vehiculo!.Matricula.ToLower() == matricula && r.EstadoReserva == "R");
+        if (reserva == null)
+        {
+            classMessage.Message($"Error: El vehiculo {reserva!.Vehiculo!.Matricula}  marca {reserva!.Vehiculo!.Marca} no tiene ninguna reserva pendiente ", 2000, ConsoleColor.Red);
+            Gestion.Menu();
+        }
+
+        reserva.EstadoReserva = "F";
+        classMessage.Information($"Vehiculo: {reserva.Vehiculo!.Marca} {reserva.Vehiculo!.Matricula} devuelto. Reserva finalizada ", ConsoleColor.DarkGreen);
+      
+
+
+        
+       
+        
 
     }
 
