@@ -62,17 +62,29 @@ class GestorReservas
 
         reserva.EstadoReserva = "F";
         classMessage.Information($"Vehiculo: {reserva.Vehiculo!.Marca} {reserva.Vehiculo!.Matricula} devuelto. Reserva finalizada ", ConsoleColor.DarkGreen);
-      
 
 
-        
-       
-        
+
+
+
 
     }
 
+    public static void MostrarReservas()
+    {
 
-    
+        Console.WriteLine("Reservas reservadas: ");
+
+        foreach (var item in Reservas.reservas)
+        {
+            classMessage.Information($"Usuario: {item.Usuario!.Nombre} " +
+            $" Estado: {item.EstadoReserva} Vehiculo: {item.Vehiculo!.Marca} " +
+            $" Costo: {item.CostoReserva} Fecha de la reserva: {item.FechaReserva} ",
+              ConsoleColor.DarkGreen);
+        }
+    }
+
+
 
 
 

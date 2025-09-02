@@ -16,7 +16,7 @@ class Gestion
 
         classMessage.Information("Ingrese la accion a realizar \n  " +
        " 1- Registrar usuarios y vehiculos \n  2- Reservar vehiculos \n " +
-        " 3- Devolver vehiculo \n  4- Mostrar vehiculos \n 5- Salir ", ConsoleColor.DarkGreen);
+        " 3- Devolver vehiculo \n  4- Mostrar vehiculos \n 5- Mostrar Reservas \n 6- Salir  ", ConsoleColor.DarkGreen);
 
         int opt = Convert.ToInt32(Console.ReadLine());
 
@@ -66,6 +66,7 @@ class Gestion
                     Menu();
 
                 }
+                Console.WriteLine("Datos de la reserva:  \n");
                 classMessage.Information("Ingrese el nombre del usuario:  ", ConsoleColor.DarkGreen);
                 string nombre = Console.ReadLine()!;
                 classMessage.Information("Ingrese la matricula del vehiculo a reservar:  ", ConsoleColor.DarkGreen);
@@ -76,24 +77,27 @@ class Gestion
                 int dias = Convert.ToInt32(Console.ReadLine());
 
                 GestorReservas.CrearReservas(nombre, v, costo, dias);
+                Thread.Sleep(4000);
                 Menu();
                 break;
 
             case 3:
 
-                classMessage.Information("Ingrese la matricula del vehiculo a devolver: ", ConsoleColor.DarkGreen);
+                classMessage.Information("Ingrese la matricula del vehiculo a devolver:  ", ConsoleColor.DarkGreen);
                 string matricula = Console.ReadLine()!;
                 GestorReservas.DevolverVehiculo(matricula);
+
+                Thread.Sleep(4000);
                 Menu();
                 break;
 
             case 4:
-                classMessage.Information($"Como quiere visualizar los vehiculos (T: Tipos / U: Ubicacion) ", ConsoleColor.DarkGreen);
+                classMessage.Information($"Como quiere visualizar los vehiculos (T: Tipos / U: Ubicacion)  ", ConsoleColor.DarkGreen);
                 var key = Console.ReadKey();
 
                 while (key.Key != ConsoleKey.T && key.Key != ConsoleKey.U)
                 {
-                    classMessage.Message("Error: Tecla invalida",2000, ConsoleColor.Red);
+                    classMessage.Message("Error: Tecla invalida ",2000, ConsoleColor.Red);
                     Menu();
                 }
 
@@ -109,12 +113,17 @@ class Gestion
                     string U = Console.ReadLine()!;
                     Vehiculos.MostrarVehiculosTipo(U); 
                 }
+                    Thread.Sleep(4000);
                 Menu();
                 break;
 
             case 5:
+                GestorReservas.MostrarReservas();
+                Menu();
+                break;
+
+                case 6:
                 classMessage.Information("Saliendo....", ConsoleColor.Cyan);
-                
                 break;
 
             default:
