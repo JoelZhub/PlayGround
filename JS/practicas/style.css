@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.1rem;
+}
+
+.menuVar{
+ background-color: #00001aeb;
+ display: block;
+ color: #ffffff;
+ max-width:400px;
+ min-height: 100%;
+}
+.menuVar ul li{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    justify-content: center;
+    align-items: center;
+    
+}
+.menuVar ul li a{
+    text-decoration: none;
+    align-items:  center;
+    justify-content: space-between;
+    
+}
