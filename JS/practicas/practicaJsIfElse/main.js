@@ -78,3 +78,31 @@ document.writeln(year >= 2000 && year <= 2030 ? "Era moderna" : year > 2030 ? "E
 document.writeln("<h2> Example 6  </h2>");
 
 document.writeln(year == 2007 || year == 2017 || year == 2027 || year == 2037 ? "El año acaba en 7" : "El año no acaba en 7");
+
+
+//switch 
+
+let miDesayuno = 3;
+
+
+switch (miDesayuno) {
+    case 1:
+        document.writeln("El desaryuno es yogurt");
+        break;
+    case 2:
+        document.writeln("El desayuno es cafe con pan");
+
+    break;
+
+    case 3:
+
+    document.writeln("El desayuno es huevo fritos");
+
+    break;
+
+    default:
+
+    document.writeln("No hay opciones validas");
+        break;
+}
+
