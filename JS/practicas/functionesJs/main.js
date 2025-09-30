@@ -95,4 +95,58 @@ let pelisFav2 = ["Terminator2", "Scary movie2"];
 misPeliculas(...pelisFav, ...pelisFav2);
 
 
-///
+//Funciones anonimas
+
+document.writeln("<br> Funciones anonimas <br>");
+
+const saludo = () =>{
+    return "Hola";
+
+}
+document.writeln(saludo());
+
+
+function myFunction2()  { 
+    
+    let element = document.getElementById('contador');
+    let veces = 10;
+
+        const intervalo = setInterval(() => {
+        element.textContent = veces;
+        if (veces==0) clearInterval(intervalo);
+        veces--;
+
+}, 1000); 
+
+}
+
+//funciones de callBack
+
+document.writeln("<br>Funciones callBack <br>");
+
+function rest(num1,num2, mostrar, multiplicar3){
+
+        let resta = num1 - num2;
+        mostrar(resta);
+        multiplicar3(resta*3);
+}
+
+rest(20,5, (resultado) => {
+
+    document.writeln(resultado + "<br>");
+
+}, (resultado) => {
+
+    document.writeln(resultado);
+
+});
+
+// funciones flechas
+ 
+let nuevoCurso = () => {
+
+    document.writeln("<br>100 dias de codigo");
+
+}
+
+nuevoCurso();
