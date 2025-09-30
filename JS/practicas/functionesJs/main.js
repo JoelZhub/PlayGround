@@ -150,3 +150,74 @@ let nuevoCurso = () => {
 }
 
 nuevoCurso();
+
+//funciones de texto 
+
+document.writeln("<br>Funciones de texto<br>");
+let numero = 1234;
+
+document.writeln(numero.toString());
+
+let web = "joel.esweb";
+
+document.writeln(web.toUpperCase());
+
+let nombre = "JOEL";
+
+document.writeln("<br>"+nombre.toLocaleLowerCase());
+
+let frase = "Soy muy guay del paraguay";
+
+document.writeln("<br>"+frase.charAt(14));
+
+//
+
+let eslogar = "No soy el mejor, pero se que soy mejor que tu";
+
+if(eslogar.includes("soy")){
+
+    document.writeln("<br>Si existe");
+
+}else{
+
+   document.writeln("<br>No existe");
+}
+
+// buscar posicion de una palabra
+
+let mensaje = "Estas aprendiendo javaScript";
+
+document.writeln(mensaje.indexOf("aprendiendo"));
+
+
+let curso = "Master en javaScript";
+document.writeln(curso.slice(0,5));
+
+// reemplazar parte de un texto
+let pelicula = "Scary movie movie";
+
+document.writeln("<br>" + pelicula.replace("movie", "3"))
+
+document.writeln("<br>" + pelicula.replaceAll("movie", "3"))
+
+//separar string en partes 
+
+let list = "Huevos, Pan, Leche, lechuga, tomate, yogures, arroz";
+document.writeln("<br>"+list.split(",") + "<br>");
+
+//concatenacion
+
+let c = "Santo domingo este";
+
+let pais = "RD";
+
+let fraseFinal =  "".concat("Mi ciuda es ", c, " y esta en ", pais);
+
+document.writeln(fraseFinal);
+
+// repeat repetir, stard, end -> inicio y final de una frase
+
+ let cadena = "Estoy cansado cansado jefe";
+
+ document.writeln("<br> " + cadena.search("cansado"));
+ document.writeln("<br> " + cadena.match( /cansado/g));
