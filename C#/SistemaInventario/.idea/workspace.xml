@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0be19a02-fde2-4e1f-ac31-9b80448a50e7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/CopilotIndices/17.14.670.39694/CodeChunks.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/CopilotIndices/17.14.670.39694/SemanticSymbols.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/FileContentIndex/0914c4ad-c55d-4fc6-93c5-ca386914c1d7.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/FileContentIndex/577cbb40-7422-47c3-9bbf-649a37fb7144.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/FileContentIndex/5ab867a1-f72c-4aa4-8cd9-f2114e9fe075.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/FileContentIndex/a9dac30f-3559-4aac-b5ed-e35a8ccf2a60.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/FileContentIndex/c31a3044-b28c-467d-a758-7474b679d4e0.vsidx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/v17/.wsuo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/v17/DocumentLayout.backup.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/PlayGround/v17/DocumentLayout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/C#.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Release/net9.0/EjercicioDia24Mes08Año2025.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Release/net9.0/EjercicioDia24Mes08Año2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Release/net9.0/EjercicioDia24Mes08Año2025.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Release/net9.0/EjercicioDia24Mes08Año2025.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Release/net9.0/EjercicioDia24Mes08Año2025.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Release/net9.0/EjercicioDia30Mes08Año2025.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Release/net9.0/EjercicioDia30Mes08Año2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Release/net9.0/EjercicioDia30Mes08Año2025.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Release/net9.0/EjercicioDia30Mes08Año2025.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Release/net9.0/EjercicioDia30Mes08Año2025.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Release/net9.0/GestionEstudiante.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Release/net9.0/GestionEstudiante.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Release/net9.0/GestionEstudiante.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Release/net9.0/GestionEstudiante.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Release/net9.0/GestionEstudiante.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/Program.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/PruebaEt.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Azure.Core.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Azure.Identity.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Humanizer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Build.Locator.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.MSBuild.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.Caching.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.Caching.Memory.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.Configuration.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.Logging.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.Options.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Identity.Client.Extensions.Msal.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Identity.Client.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.IdentityModel.Abstractions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.SqlServer.Server.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/Mono.TextTemplating.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/PruebaEt.deps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/PruebaEt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/PruebaEt.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/PruebaEt.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/PruebaEt.runtimeconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.ClientModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.CodeDom.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Composition.AttributedModel.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Composition.Convention.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Composition.Hosting.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Composition.Runtime.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Composition.TypedParts.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Memory.Data.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Security.Permissions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/unix/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/unix/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Drawing.Common.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Runtime.Caching.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/runtimes/win/lib/net6.0/System.Windows.Extensions.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/bin/Debug/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.GlobalUsings.g.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.csproj.Up2Date" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.genruntimeconfig.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.pdb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/PruebaEt.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/apphost.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/ref/PruebaEt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/Debug/net9.0/refint/PruebaEt.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/PruebaEt.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/PruebaEt.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/PruebaEt.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/PruebaEt.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PruebaEt/obj/project.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/SistemaInventario/CopilotIndices/17.14.670.39694/CodeChunks.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/SistemaInventario/CopilotIndices/17.14.670.39694/SemanticSymbols.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/SistemaInventario/v17/.suo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/SistemaInventario/v17/.wsuo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/SistemaInventario/v17/DocumentLayout.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Models/Db/DbContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.csproj.AssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.sourcelink.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/obj/SistemaInventario.csproj.EntityFrameworkCore.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Debug/net9.0/EjercicioDia24Mes08Año2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Debug/net9.0/EjercicioDia24Mes08Año2025.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Debug/net9.0/EjercicioDia24Mes08Año2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Debug/net9.0/EjercicioDia24Mes08Año2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Debug/net9.0/EjercicioDia24Mes08Año2025.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Debug/net9.0/EjercicioDia24Mes08Año2025.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Debug/net9.0/EjercicioDia24Mes08Año2025.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioDia24Mes08Año2025/obj/Debug/net9.0/EjercicioDia24Mes08Año2025.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Debug/net9.0/EjercicioDia30Mes08Año2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Debug/net9.0/EjercicioDia30Mes08Año2025.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Debug/net9.0/EjercicioDia30Mes08Año2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Debug/net9.0/EjercicioDia30Mes08Año2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Debug/net9.0/EjercicioDia30Mes08Año2025.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Debug/net9.0/EjercicioDia30Mes08Año2025.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Debug/net9.0/EjercicioDia30Mes08Año2025.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../EjercicioDia30Mes08Año2025/obj/Debug/net9.0/EjercicioDia30Mes08Año2025.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionEstudiante/obj/Debug/net9.0/GestionEstudiante.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Debug/net9.0/GestionEstudiante.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionEstudiante/obj/Debug/net9.0/GestionEstudiante.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Debug/net9.0/GestionEstudiante.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionEstudiante/obj/Debug/net9.0/GestionEstudiante.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Debug/net9.0/GestionEstudiante.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GestionEstudiante/obj/Debug/net9.0/GestionEstudiante.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../GestionEstudiante/obj/Debug/net9.0/GestionEstudiante.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PlayGround.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SistemaInventario.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SistemaInventario.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net9.0/SistemaInventario.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net9.0/SistemaInventario.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net9.0/SistemaInventario.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net9.0/SistemaInventario.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net9.0/SistemaInventario.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net9.0/SistemaInventario.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net9.0/SistemaInventario.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Release/net9.0/SistemaInventario.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Release/net9.0/SistemaInventario.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SistemaInventario.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SistemaInventario.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SistemaInventario.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SistemaInventario.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/SistemaInventario.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/obj/SistemaInventario.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="33I4UG1AyiPGQLrABcveJNSiKqX" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/joela/OneDrive/Escritorio/PlayGround/C#/SistemaInventario&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0be19a02-fde2-4e1f-ac31-9b80448a50e7" name="Changes" comment="" />
+      <created>1758991265635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758991265635</updated>
+      <workItem from="1758991267004" duration="49000" />
+      <workItem from="1759148292787" duration="63000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
