@@ -1,0 +1,6 @@
+C:\Users\joela\OneDrive\Escritorio\PlayGround\C#\SistemaInventario\obj\Debug\net9.0\SistemaInventario.csproj.AssemblyReference.cache
+C:\Users\joela\OneDrive\Escritorio\PlayGround\C#\SistemaInventario\obj\Debug\net9.0\SistemaInventario.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joela\OneDrive\Escritorio\PlayGround\C#\SistemaInventario\obj\Debug\net9.0\SistemaInventario.AssemblyInfoInputs.cache
+C:\Users\joela\OneDrive\Escritorio\PlayGround\C#\SistemaInventario\obj\Debug\net9.0\SistemaInventario.AssemblyInfo.cs
+C:\Users\joela\OneDrive\Escritorio\PlayGround\C#\SistemaInventario\obj\Debug\net9.0\SistemaInventario.csproj.CoreCompileInputs.cache
+C:\Users\joela\OneDrive\Escritorio\PlayGround\C#\SistemaInventario\obj\Debug\net9.0\SistemaInventario.sourcelink.json
