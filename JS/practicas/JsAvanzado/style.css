@@ -1,0 +1,22 @@
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+}
+.articuloBase{
+
+        border: 1px solid #ccc;
+        padding: 20px;
+        margin: 20px;
+
+}
+.articuloBase a{
+    color :#fff;
+}
+.articuloDiferent{
+
+    background-color: black;
+    color: #fff;
+    border-radius:4px ;
+}

@@ -72,10 +72,10 @@ function myMove(){
 
         id = setInterval(()=>{
         if(post == 300){
-            clearInterval(id);
-            post -= post;
-            element.style.top =  post + 'px';
-             element.style.left =  post + 'px';
+            // clearInterval(id);
+            // post -= post;
+            // element.style.top =  post + 'px';
+            //  element.style.left =  post + 'px';
 
         }else{
             post++;
