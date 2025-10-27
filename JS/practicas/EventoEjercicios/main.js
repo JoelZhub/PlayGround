@@ -13,8 +13,6 @@ btn.addEventListener("click", () => {
         indice=0;
     }
 
-
-
 });
 
 //ejercicio 2 
