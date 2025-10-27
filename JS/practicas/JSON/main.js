@@ -28,7 +28,9 @@ for(let clave in peliculas ){
     caja.innerHTML += `<p>${clave}  - ${peliculas[clave]}</p>`;
 }
 
+let j = JSON.isRawJSON(peliculaJson);
 
+console.log(j);
 
 
 //objectos literales
