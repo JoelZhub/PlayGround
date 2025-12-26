@@ -1,12 +1,14 @@
+const header = document.querySelector("#header");
 
-// @ts-check
+// import { Button } from "./componentes/Button.js";
+// app.appendChild(Button("Saludar"));
 
-//creando componente base 
-import { Button } from "./componentes/Button.js";
-document.body.appendChild(Button("Saludar"));
+// import { Counter } from "./componentes/Counter.js";
+// app.appendChild(Counter());
 
-import { Counter } from "./componentes/Counter.js";
-document.body.appendChild(Counter());
+import { NavBar } from "./componentes/NavBar.js";
+import { Navigate } from "./navigation/Navigate.js";
 
-import { Contact } from "./Contact.js";
-document.body.appendChild(Contact());
+header.appendChild(NavBar(Navigate));
+
+Navigate("home");
