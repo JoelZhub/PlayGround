@@ -1,9 +1,16 @@
 @import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
 
-@theme{
+
+@theme {
     --color-primary: #09f ;
     --color-primary-light: #ceecff ;
-
     --breakpoint-xs : 350px ;
 }
 
+
+.social-media {
+
+    @apply flex justify-center items-center hover:scale-115 transition-transform p-4 size-12  xs:size-16 
+     rounded-full animate-slide-up-fade;
+}
