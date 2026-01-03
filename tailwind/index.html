@@ -4,19 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tailwind</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./css/output.css"> 
 </head>
-<body class="max-w-xl 
+<body class="
+    max-w-xl
     mx-auto border
     border-white
     rounded-2xl
     min-h-dvh
-    bg-gradient-to-b from-black via-sky-950 to-gray-800
- ">
-    <header class="text-white p-22 justify-center items-center gap-4 ">
+    bg-gradient-to-b from-black via-sky-950 to-gray-800">
 
-        <img class="h-[50vh]  object-contain 
-        mask-radial-at-center mask-radial-from-30% mask-radial-to-70% " src="./assets/me-big.jpg" alt="">
+    <header class="text-white p-22 justify-center items-center ">
+        <img class="h-96  object-cover
+        mask-radial-at-center mask-radial-from-30%  mask-radial-to-70% " src="./assets/me-big.jpg" alt="">
         
         <section class="flex flex-col justify-center items-center gap-4 mb-8 -mt-10 " >
             <span class="text-sky-400 
@@ -38,30 +38,30 @@
             </h3>
         </section>
 
-        <section class="flex gap-4 " data-model="redes-sociales" >
-        <a class="bg-gray-50 hover:scale-115 transition-transform p-4 size-13  flex items-center justify-center
+        <section class="flex flex-wrap sm:flex-nowrap gap-4   items-center justify-center "data-model="redes-sociales" >
+        <a class="bg-gray-50 flex justify-center items-center hover:scale-115 transition-transform p-4 size-12  xs:size-16 
          rounded-full" target="_blank" aria-label="Twitch" title="Ir al twitch de @joel">
             <svg class="fill-purple-500" width="30" height="30">
                 <use xlink:href="./assets/sprite.svg#twitch"/>
             </svg>
         </a>
-        <a class="bg-zinc-900 p-4 size-13 flex  hover:scale-115 transition-transform  justify-center items-center rounded-full"
+        <a class="bg-zinc-900 flex justify-center items-center p-4 size-12  xs:size-16  hover:scale-115 transition-transform  rounded-full"
          target="_blank"  aria-label="Github" title="Ir al github de @joel" href="https://">
             <svg class="fill-white" width="30" height="30" >
                 <use xlink:href="./assets/sprite.svg#github"/>
             </svg>            
         </a>
-        <a class="p-4  size-13 flex  hover:scale-115
-         transition-transform  justify-center items-center rounded-full
+        <a class="p-4 flex justify-center items-center  size-12 xs:size-16   hover:scale-115
+         transition-transform  rounded-full
           bg-gradient-to-tr from-yellow-300 via-pink-600 to-purp-600"  
          target="_blank"  aria-label="Instagram" title="Ir al instagram de @joel" href="https://">
             <svg  class="fill-white" width="30" height="30" >
                 <use xlink:href="./assets/sprite.svg#instagram"/>
             </svg>            
         </a>
-        <a class="bg-white flex p-4 size-13 
+        <a class="bg-white flex  justify-center items-center p-4 size-12  xs:size-16
          hover:scale-115 transition-transform  
-         justify-center items-center rounded-full "   
+        rounded-full "   
          target="_blank"  aria-label="Youtube"
           title="Ir al youtube de @joel" href="https://">
             <svg  class="fill-red-600" width="30" height="30" >
@@ -69,9 +69,9 @@
             </svg>      
 
         </a>
-        <a class="bg-zinc-900 flex p-4 size-13 
+        <a class="bg-zinc-900 flex justify-center items-center  p-4 size-12  xs:size-16
          hover:scale-115 transition-transform  
-         justify-center items-center rounded-full "   
+        rounded-full "   
          target="_blank"  aria-label="X"
           title="Ir al X de @joel" href="https://">
             <svg  class="fill-white" width="30" height="30" >
@@ -79,10 +79,9 @@
             </svg>      
 
         </a>
-     
-        <a class="bg-white flex p-4 size-13 
+        <a class="bg-white flex justify-center items-center  p-4 size-12  xs:size-16
          hover:scale-115 transition-transform  
-         justify-center items-center rounded-full "   
+         rounded-full "   
          target="_blank"  aria-label="X"
           title="Ir al X de @joel" href="https://">
             <svg  class="fill-blue-600" width="30" height="30" >
@@ -91,6 +90,14 @@
 
         </a>
         </section>
+        <p class="text-center mt-4 text-xs text-primary-light px-4 text-balance">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Itaque cum dolorem libero, totam eligendi quod!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Quisquam ratione consequuntur aut.
+        </p>
+
+
     </header>
     <main></main>
     <footer>
