@@ -1,7 +1,7 @@
 export function createHeader(){
     const wrapper = document.createElement('div');
     wrapper.innerHTML = `<header class="grid grid-cols-5 max-w-full min-h-14 
-    text-4xl px-4 py-4
+    text-4xl p-4
      bg-white border border-b-sky-950 items-center tracking-widest  text-sky-950 " >
 
      
