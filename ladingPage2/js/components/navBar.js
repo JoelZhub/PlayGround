@@ -2,7 +2,7 @@ export function createNavBar(){
     
     const wrapper = document.createElement('nav');
     
-    wrapper.innerHTML = `<nav class="p-4 fixed  min-h-14 bottom-0 inset-x-0  sm:flex sm:static  bg-sky-900 text-white  max-w-full "> 
+    wrapper.innerHTML = `<nav class="p-4 fixed  min-h-14  bottom-0 inset-x-0  sm:flex sm:static  bg-sky-900 text-white  max-w-full "> 
             <ul class="flex items-center justify-center  gap-10 sm:gap-14">
             
                 <li class=" flex flex-col sm:flex-row sm:gap-2.5 items-center text-[15px]  sm:text-xl  sm:font-medium sm:tracking-wide   ">

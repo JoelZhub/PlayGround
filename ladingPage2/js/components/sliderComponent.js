@@ -1,10 +1,9 @@
-export function createElementSlide({id, imgUrl, alt}){
+export function createElementSlide( {id, imgUrl, alt} ){
     const wrapper = document.createElement('div');
     wrapper.innerHTML = `<div id="${id}"
-    class="max-w-full  ">
-    <img class="" href="${imgUrl}" alt="${alt}" >
+    class=" shrink-0 w-full sm:h-96 h-72   ">
+    <img  class="object-cover rounded-3xl  w-full h-full" src="${imgUrl}" alt="${alt}" >
     </div>`;
 
-
- return wrapper.firstChild;
+    return wrapper.firstChild;
 }

@@ -8,6 +8,8 @@ export function createHeader(){
     min-h-14 
     md:text-4xl p-4
     text-2xl
+    border
+    md:border-0
 bg-white
   items-center 
   tracking-widest

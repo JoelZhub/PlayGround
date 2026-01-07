@@ -7,5 +7,6 @@ const nav = document.querySelector('#navBar');
 nav.appendChild(createNavBar());
 
 
+import { createSlider } from "./components/slider.js";
 const app = document.querySelector('#app');
-
+app.appendChild(createSlider());
