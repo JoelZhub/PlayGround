@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 <body class="" >
-    
+
     <nav class="bg-white font-mono text-sky-950  text-xs md:text-lg border-b border-black px-6 grid grid-cols-5 items-center gap-10 max-w-full min-h-20 md:min-h-24  ">
-        <span class="col-span-1 text-5xl font-bold text-green-800 "><b class="text-black">Edu</b>Le</span>
-        <ul class="flex gap-8 font-medium col-span-3 justify-center ">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">All Course</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Contact</a></li>
+        <span class=" cursor-pointer col-span-1 text-5xl font-bold text-green-800 "><b class="text-black">Edu</b>Le</span>
+        <ul class="flex gap-8 font-medium  col-span-3 justify-center">
+            <li class=" hover:border-b-2 "><a href="#">Home</a></li>
+            <li class=" hover:border-b-2"><a href="#">All Course</a></li>
+            <li class=" hover:border-b-2 "><a href="#">Pages</a></li>
+            <li class=" hover:border-b-2 "><a href="#">Blog</a></li>
+            <li class=" hover:border-b-2 "><a href="#">Contact</a></li>
         </ul>
         <div>
             <ul class="flex col-span-1 gap-4 items-center">
@@ -25,7 +25,23 @@
         </div>
 
     </nav>
+   
+    
+        <form class=" bg-sky-950 rounded-2xl p-5 mt-10  w-96   mx-auto " bindsubmit="">
+            
+            <label class=" text-sm text-white font-medium mb-3.5  " for="">Nombre</label>
+            <input class=" outline-none  w-full bg-white border p-1.5 rounded-md  border-black mt-2 mb-4 " type="text" placeholder="Enter your name">
+        
+             <label class=" text-sm text-white font-medium  " for="">Apellido</label>
+            <input class=" outline-none w-full bg-white border p-1.5 rounded-md  border-black mt-2 mb-4 " type="text" placeholder="Enter your name">
 
+             <label class=" text-sm text-white font-medium  " for="">Password</label>
+            <input class=" outline-none w-full bg-white border p-1.5 rounded-md  border-black mt-2 mb-4 " type="password" placeholder="Enter your name">
+            
+            <button class=" bg-white cursor-pointer  p-1.5 rounded-md w-28 font-medium hover:text-white hover:bg-black " >Enviar </button>
+
+
+        </form>
 
 </body>
 </html>
